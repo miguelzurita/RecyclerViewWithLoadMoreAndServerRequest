@@ -9,9 +9,6 @@ ext {
 
     libraryDescription = 'An awesome library for for android project implementation including RecyclerView handling and Server Request'
 
-    siteUrl = 'https://github.com/hereshem/RecyclerViewWithLoadMoreAndServerRequest'
-    gitUrl = 'https://github.com/hereshem/RecyclerViewWithLoadMoreAndServerRequest.git'
-
     libraryVersion = '2.1.2'
 
     developerId = 'hereshem'
@@ -24,10 +21,10 @@ ext {
 }
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 26
     defaultConfig {
         minSdkVersion 15
-        targetSdkVersion 27
+        targetSdkVersion 26
         versionCode 8
         versionName "2.1.2"
     }
@@ -40,8 +37,5 @@ android {
 }
 
 dependencies {
-    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    implementation 'com.android.support:recyclerview-v7:26.1.0'
 }
-
-apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
-apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
